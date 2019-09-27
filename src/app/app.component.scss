@@ -1,0 +1,21 @@
+.message-list {
+  width: 500px;
+  border: 1px solid black;
+  margin-bottom: 8px;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border: 1px dotted green;
+  margin-bottom: 8px;
+
+  &--right-aligned {
+    background: teal;
+    margin-left: auto;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
